@@ -1,0 +1,3 @@
+vhdl work "PICOCODE.VHD"
+vhdl work "kcpsm3.vhd"
+vhdl work "picoblaze.vhd"

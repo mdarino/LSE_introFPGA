@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Tue Sep 08 20:46:47 2015
+# Process ID: 2732
+# Log file: C:/Cursos/IntroFpga/Practica02/planAhead_run_1/planAhead.log
+# Journal file: C:/Cursos/IntroFpga/Practica02/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Cursos/IntroFpga/Practica02/pa.fromHdl.tcl
+# create_project -name arwz_pace -dir "C:/Cursos/IntroFpga/Practica02/planAhead_run_1" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 373.828 ; gain = 33.988
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "uart_clock.ucf" [current_fileset -constrset]
+Adding file 'C:/Cursos/IntroFpga/Practica02/uart_clock.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {kcuart_tx.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {kcuart_rx.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bbfifo_16x8.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# add_files [list {UCLOCK.VHD}]
+# set hdlfile [add_files [list {uart_tx.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_rx.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {kcpsm3.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {my_dcm.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_clock.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top uart_clock $srcset
+# add_files [list {uart_clock.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/kcuart_tx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/kcuart_rx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/bbfifo_16x8.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/UCLOCK.VHD" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/uart_tx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/uart_rx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/my_dcm.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/kcpsm3.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica02/uart_clock.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Cursos/IntroFpga/Practica02/uart_clock.ucf]
+Finished Parsing UCF File [C:/Cursos/IntroFpga/Practica02/uart_clock.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4561c788
+open_rtl_design: Time (s): elapsed = 00:00:24 . Memory (MB): peak = 470.203 ; gain = 79.668
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P9 [get_ports rx]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports lock]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports alarm]
+endgroup
+startgroup
+set_property package_pin U6 [get_ports tx]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports rx]
+endgroup
+set_property package_pin "" [get_ports [list  rx]]
+startgroup
+set_property package_pin P9 [get_ports tx]
+endgroup
+startgroup
+set_property package_pin U6 [get_ports rx]
+endgroup
+set_property iostandard LVTTL [get_ports [list tx]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Cursos/IntroFpga/Practica02\planAhead_pid2732.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Sep 08 21:00:49 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

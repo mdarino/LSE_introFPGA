@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Tue Sep 29 21:26:22 2015
+# Process ID: 5476
+# Log file: C:/Cursos/IntroFpga/Practica04/synth_lab/planAhead_run_2/planAhead.log
+# Journal file: C:/Cursos/IntroFpga/Practica04/synth_lab/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Cursos/IntroFpga/Practica04/synth_lab/pa.fromNcd.tcl

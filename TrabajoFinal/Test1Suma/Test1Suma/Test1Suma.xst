@@ -1,0 +1,5 @@
+set -tmpdir "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/xst/projnav.tmp"
+set -xsthdpdir "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/xst"
+elaborate
+-ifn Test1Suma.prj
+-ifmt mixed

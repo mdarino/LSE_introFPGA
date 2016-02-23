@@ -1,0 +1,28 @@
+Command line:
+   picoblaze_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58242
+
+Sat Jan 30 17:30:21 2016
+
+
+ Elaboration Time: 0.421203 sec
+
+ Current Memory Usage: 829.252 Meg
+
+ Total Signals          : 1717
+ Total Nets             : 1885
+ Total Signal Drivers   : 462
+ Total Blocks           : 420
+ Total Primitive Blocks : 312
+ Total Processes        : 413
+ Total Traceable Variables  : 596
+ Total Scalar Nets and Variables : 28408
+
+ Total Simulation Time: 0.514804 sec
+
+ Current Memory Usage: 1143.82 Meg
+
+Sat Jan 30 17:30:44 2016
+

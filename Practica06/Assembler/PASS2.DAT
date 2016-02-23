@@ -1,0 +1,990 @@
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Port address definitions...
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-switch_in
+   OPERAND2-00
+    COMMENT-; Switch read port
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-leds_out
+   OPERAND2-01
+    COMMENT-; LED write port
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-uart_data_rx
+   OPERAND2-02
+    COMMENT-; UART receive read port
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-uart_data_tx
+   OPERAND2-03
+    COMMENT-; UART transmit write port
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-data_present
+   OPERAND2-04
+    COMMENT-; UART stat read port, lsb
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-buffer_full
+   OPERAND2-05
+    COMMENT-; UART stat read port, lsb
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Useful constant declarations...
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-all_clear
+   OPERAND2-00
+    COMMENT-; define zero
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_NUL
+   OPERAND2-00
+    COMMENT-; ascii code (null character)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SOH
+   OPERAND2-01
+    COMMENT-; ascii code (start of header)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_STX
+   OPERAND2-02
+    COMMENT-; ascii code (start of text)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ETX
+   OPERAND2-03
+    COMMENT-; ascii code (end of text)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_EOT
+   OPERAND2-04
+    COMMENT-; ascii code (end of xmit)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ENQ
+   OPERAND2-05
+    COMMENT-; ascii code (enquiry)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ACK
+   OPERAND2-06
+    COMMENT-; ascii code (acknowledge)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_BEL
+   OPERAND2-07
+    COMMENT-; ascii code (bell)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_BS
+   OPERAND2-08
+    COMMENT-; ascii code (backspace)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_HT
+   OPERAND2-09
+    COMMENT-; ascii code (horiz tab)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_LF
+   OPERAND2-0A
+    COMMENT-; ascii code (line feed)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_VT
+   OPERAND2-0B
+    COMMENT-; ascii code (vert tab)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_FF
+   OPERAND2-0C
+    COMMENT-; ascii code (form feed)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_CR
+   OPERAND2-0D
+    COMMENT-; ascii code (carriage return)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SO
+   OPERAND2-0E
+    COMMENT-; ascii code (shift out)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SI
+   OPERAND2-0F
+    COMMENT-; ascii code (shift in)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DLE
+   OPERAND2-10
+    COMMENT-; ascii code (data link esc)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DC1
+   OPERAND2-11
+    COMMENT-; ascii code (device ctrl 1, xon)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DC2
+   OPERAND2-12
+    COMMENT-; ascii code (device ctrl 2)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DC3
+   OPERAND2-13
+    COMMENT-; ascii code (device ctrl 3, xoff)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DC4
+   OPERAND2-14
+    COMMENT-; ascii code (device ctrl 4)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_NAK
+   OPERAND2-15
+    COMMENT-; ascii code (negative acknowledge)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SYN
+   OPERAND2-16
+    COMMENT-; ascii code (sync idle)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ETB
+   OPERAND2-17
+    COMMENT-; ascii code (end xmit block)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_CAN
+   OPERAND2-18
+    COMMENT-; ascii code (cancel)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_EM
+   OPERAND2-19
+    COMMENT-; ascii code (end of medium)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SUB
+   OPERAND2-1A
+    COMMENT-; ascii code (substitute)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ESC
+   OPERAND2-1B
+    COMMENT-; ascii code (escape)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_FS
+   OPERAND2-1C
+    COMMENT-; ascii code (file separator)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_GS
+   OPERAND2-1D
+    COMMENT-; ascii code (group separator)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_RS
+   OPERAND2-1E
+    COMMENT-; ascii code (record separator)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_US
+   OPERAND2-1F
+    COMMENT-; ascii code (unit space)
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SPACE
+   OPERAND2-20
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_EXCLAIM
+   OPERAND2-21
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DBLQUOT
+   OPERAND2-22
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_NUMSIGN
+   OPERAND2-23
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DOLLAR
+   OPERAND2-24
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_PERCENT
+   OPERAND2-25
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_AMP
+   OPERAND2-26
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SINQUOT
+   OPERAND2-27
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_LPAREN
+   OPERAND2-28
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_RPAREN
+   OPERAND2-29
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_ASTERISK
+   OPERAND2-2A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_PLUS
+   OPERAND2-2B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_COMMA
+   OPERAND2-2C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_MINUS
+   OPERAND2-2D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_PERIOD
+   OPERAND2-2E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_FWDSLASH
+   OPERAND2-2F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_0
+   OPERAND2-30
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_1
+   OPERAND2-31
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_2
+   OPERAND2-32
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_3
+   OPERAND2-33
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_4
+   OPERAND2-34
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_5
+   OPERAND2-35
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_6
+   OPERAND2-36
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_7
+   OPERAND2-37
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_8
+   OPERAND2-38
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_9
+   OPERAND2-39
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_COLON
+   OPERAND2-3A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_SEMI
+   OPERAND2-3B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_LESS
+   OPERAND2-3C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_EQUAL
+   OPERAND2-3D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_GREATER
+   OPERAND2-3E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_QUESTION
+   OPERAND2-3F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_CIRCAT
+   OPERAND2-40
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_A
+   OPERAND2-41
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_B
+   OPERAND2-42
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_C
+   OPERAND2-43
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_D
+   OPERAND2-44
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_E
+   OPERAND2-45
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_F
+   OPERAND2-46
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_G
+   OPERAND2-47
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_H
+   OPERAND2-48
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_I
+   OPERAND2-49
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_J
+   OPERAND2-4A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_K
+   OPERAND2-4B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_L
+   OPERAND2-4C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_M
+   OPERAND2-4D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_N
+   OPERAND2-4E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_O
+   OPERAND2-4F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_P
+   OPERAND2-50
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_Q
+   OPERAND2-51
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_R
+   OPERAND2-52
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_S
+   OPERAND2-53
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_T
+   OPERAND2-54
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_U
+   OPERAND2-55
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_V
+   OPERAND2-56
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_W
+   OPERAND2-57
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_X
+   OPERAND2-58
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_Y
+   OPERAND2-59
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_Z
+   OPERAND2-5A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_LBKT
+   OPERAND2-5B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_BKSLASH
+   OPERAND2-5C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_RBKT
+   OPERAND2-5D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_CARET
+   OPERAND2-5E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_UNDER
+   OPERAND2-5F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_TICK
+   OPERAND2-60
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_a
+   OPERAND2-61
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_b
+   OPERAND2-62
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_c
+   OPERAND2-63
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_d
+   OPERAND2-64
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_e
+   OPERAND2-65
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_f
+   OPERAND2-66
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_g
+   OPERAND2-67
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_h
+   OPERAND2-68
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_i
+   OPERAND2-69
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_j
+   OPERAND2-6A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_k
+   OPERAND2-6B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_l
+   OPERAND2-6C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_m
+   OPERAND2-6D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_n
+   OPERAND2-6E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_o
+   OPERAND2-6F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_p
+   OPERAND2-70
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_q
+   OPERAND2-71
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_r
+   OPERAND2-72
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_s
+   OPERAND2-73
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_t
+   OPERAND2-74
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_u
+   OPERAND2-75
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_v
+   OPERAND2-76
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_w
+   OPERAND2-77
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_x
+   OPERAND2-78
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_y
+   OPERAND2-79
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_z
+   OPERAND2-7A
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_LBRACE
+   OPERAND2-7B
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_VBAR
+   OPERAND2-7C
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_RBRACE
+   OPERAND2-7D
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_TILDE
+   OPERAND2-7E
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ascii_DEL
+   OPERAND2-7F
+    COMMENT-; ascii code
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Actual assembly program goes here...
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-cold_start
+INSTRUCTION-LOAD
+   OPERAND1-s0
+   OPERAND2-all_clear
+    COMMENT-; zero out reg s0
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_X
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_i
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_l
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_i
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_n
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_x
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_SPACE
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_R
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_u
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_l
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_e
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_s
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_EXCLAIM
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_CR
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-ascii_LF
+    COMMENT-;
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; LAB TASK #2
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Write code to output a short (10 characters
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; or less) message to the serial port.
+      LABEL-loop
+INSTRUCTION-INPUT
+   OPERAND1-s1
+   OPERAND2-switch_in
+    COMMENT-; read switch state
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-leds_out
+    COMMENT-; write it to leds
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; LAB TASK #1
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Write code to read the switch state and
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; then write it to the LED control port.
+      LABEL-rs232_echo
+INSTRUCTION-INPUT
+   OPERAND1-s1
+   OPERAND2-data_present
+    COMMENT-; check uart for data
+      LABEL-
+INSTRUCTION-XOR
+   OPERAND1-s1
+   OPERAND2-s0
+    COMMENT-; used to set flags
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-Z
+   OPERAND2-loop
+    COMMENT-; nothing, loop again
+      LABEL-
+INSTRUCTION-INPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_rx
+    COMMENT-; read received byte
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s1
+   OPERAND2-uart_data_tx
+    COMMENT-; write it back out
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-loop
+   OPERAND2-
+    COMMENT-; loop again
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; LAB TASK #3
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Write code to check if a byte has been
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; received by the uart.  If so, write it
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; back to the uart transmit port.  If not
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; don't do anything and just...
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-loop
+   OPERAND2-
+    COMMENT-; loop again
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;================================================================

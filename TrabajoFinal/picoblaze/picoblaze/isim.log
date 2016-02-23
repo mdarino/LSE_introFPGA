@@ -1,0 +1,64 @@
+ISim log file
+Running: C:\Cursos\IntroFpga\TrabajoFinal\picoblaze\picoblaze\picoblaze_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_isim_beh.wdb 
+ISim P.49d (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 20 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 40 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 60 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 80 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 100 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 120 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 140 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 160 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 180 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 200 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 220 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 240 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 260 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 280 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 300 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 320 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 340 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 360 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 380 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 400 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 420 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 440 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 460 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 480 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 500 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 520 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 540 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 560 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 580 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 600 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 620 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 640 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 660 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 680 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 700 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 720 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 740 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 760 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 780 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 800 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 820 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 840 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 860 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 880 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 900 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 920 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 940 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 960 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 980 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 1 us, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+at 1020 ns, Instance /picoblaze_test/DUT/FloatPoint_ALU/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us

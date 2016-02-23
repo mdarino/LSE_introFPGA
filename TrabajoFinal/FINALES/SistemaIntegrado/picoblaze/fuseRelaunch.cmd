@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_isim_beh.exe" -prj "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_beh.prj" "work.picoblaze_test" 

@@ -1,0 +1,28 @@
+Command line:
+   FloatPointALU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57934
+
+Sat Jan 30 15:04:09 2016
+
+
+ Elaboration Time: 0.202801 sec
+
+ Current Memory Usage: 827.101 Meg
+
+ Total Signals          : 8
+ Total Nets             : 101
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 1
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 589
+
+ Total Simulation Time: 0.405602 sec
+
+ Current Memory Usage: 1141.67 Meg
+
+Sat Jan 30 15:04:36 2016
+

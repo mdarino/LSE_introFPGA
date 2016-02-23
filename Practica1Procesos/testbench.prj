@@ -1,0 +1,4 @@
+vhdl work "kcpsm3.vhd"
+vhdl work "INT_TEST.VHD"
+vhdl work "kcpsm3_int_test.vhd"
+vhdl work "test_bench.vhd"

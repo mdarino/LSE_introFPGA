@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma_test.spl -module Test1Suma_test -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma_test.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma_test.sym 

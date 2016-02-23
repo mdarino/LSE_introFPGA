@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.xst" -ofn "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 kcpsm3_int_test.ngc kcpsm3_int_test.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o kcpsm3_int_test_map.ncd kcpsm3_int_test.ngd kcpsm3_int_test.pcf 
+par -w -intstyle ise -ol high -t 1 kcpsm3_int_test_map.ncd kcpsm3_int_test.ncd kcpsm3_int_test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml kcpsm3_int_test.twx kcpsm3_int_test.ncd -o kcpsm3_int_test.twr kcpsm3_int_test.pcf 

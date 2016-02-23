@@ -1,0 +1,11 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf04s          [4 M]
+FF
+lab3
+C:/Cursos/IntroFpga/Practica03/time_const
+
+MCS
+No
+
+No

@@ -1,0 +1,9 @@
+[Inputs]
+clk
+J
+K
+reset
+[Outputs]
+Q
+Qbar
+[BiDir]

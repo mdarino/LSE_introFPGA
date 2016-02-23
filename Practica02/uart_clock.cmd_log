@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+pin2ucf -o uart_clock_locked.ucf uart_clock.ncd 
+bitgen -intstyle ise -f uart_clock.ut uart_clock.ncd 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+bitgen -intstyle ise -f uart_clock.ut uart_clock.ncd 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+bitgen -intstyle ise -f uart_clock.ut uart_clock.ncd 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica02/uart_clock.xst" -ofn "C:/Cursos/IntroFpga/Practica02/uart_clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+bitgen -intstyle ise -f uart_clock.ut uart_clock.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc uart_clock.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o uart_clock_map.ncd uart_clock.ngd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock_preroute.twx uart_clock_map.ncd -o uart_clock_preroute.twr uart_clock.pcf -ucf uart_clock.ucf 
+par -w -intstyle ise -ol high -t 1 uart_clock_map.ncd uart_clock.ncd uart_clock.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml uart_clock.twx uart_clock.ncd -o uart_clock.twr uart_clock.pcf -ucf uart_clock.ucf 
+bitgen -intstyle ise -f uart_clock.ut uart_clock.ncd 

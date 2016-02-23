@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Tue Sep 29 21:13:02 2015
+# Process ID: 5060
+# Log file: C:/Cursos/IntroFpga/Practica04/synth_lab/planAhead_run_1/planAhead.log
+# Journal file: C:/Cursos/IntroFpga/Practica04/synth_lab/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Cursos/IntroFpga/Practica04/synth_lab/pa.fromNcd.tcl
+# create_project -name synth_lab -dir "C:/Cursos/IntroFpga/Practica04/synth_lab/planAhead_run_1" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 379.395 ; gain = 39.875
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Cursos/IntroFpga/Practica04/synth_lab} }
+# set_property target_constrs_file "loopback.ucf" [current_fileset -constrset]
+Adding file 'C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ucf' to fileset 'constrs_1'
+# add_files [list {loopback.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.4 - ngc2edif P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.4 - ngc2edif P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design loopback.ngc ...
+WARNING:NetListWriters:298 - No output is written to loopback.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file loopback.edif ...
+ngc2edif: Total memory usage is 61220 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/synth_lab.data/cache/loopback_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/synth_lab.data/cache/loopback_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ucf]
+Finished Parsing UCF File [C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4db69497
+link_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 470.750 ; gain = 83.305
+# read_xdl -file "C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ncd"
+Release 14.4 - xdl P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+   "loopback" is an NCD, version 3.2, device xc3s500e, package fg320, speed -4
+Successfully converted design 'C:\Cursos\IntroFpga\Practica04\synth_lab\loopback.ncd' to 'C:\Cursos\IntroFpga\Practica04\synth_lab\loopback.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.ncd
+INFO: [Designutils 20-671] Placed 612 instances
+read_xdl: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 473.781 ; gain = 2.617
+# if {[catch {read_twx -name results_1 -file "C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"C:/Cursos/IntroFpga/Practica04/synth_lab/loopback.twx\": $eInfo"
+# }
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Cursos/IntroFpga/Practica04/synth_lab\planAhead_pid5060.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Sep 29 21:16:41 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

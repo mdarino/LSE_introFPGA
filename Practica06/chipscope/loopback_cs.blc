@@ -1,0 +1,30 @@
+Release 14.4 ngcbuild P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngcbuild.exe -dd C:/Cursos/IntroFpga/Practica06/chipscope/_ngo -sd
+ipcore_dir -p xc3s500e-fg320-4 -i
+C:\Cursos\IntroFpga\Practica06\chipscope\loopback.ngc
+C:\Cursos\IntroFpga\Practica06\chipscope\loopback_cs.ngc
+
+Reading NGO file "C:/Cursos/IntroFpga/Practica06/chipscope/loopback.ngc" ...
+Loading design module "ipcore_dir/program.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 115056 kilobytes
+
+Writing NGC file "C:/Cursos/IntroFpga/Practica06/chipscope/loopback_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  8 sec
+Total CPU time to NGCBUILD completion:   8 sec
+
+Writing NGCBUILD log file
+"C:/Cursos/IntroFpga/Practica06/chipscope/loopback_cs.blc"...

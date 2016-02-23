@@ -1,0 +1,24 @@
+Table of constant values and their specified constant labels.
+
+01  NA1
+02  NA2
+03  NA3
+04  NA4
+01  NB1
+02  NB2
+03  NB3
+04  NB4
+00  OPE
+01  pR1
+02  pR2
+03  pR3
+04  pR4
+05  pA1
+06  pA2
+07  pA3
+08  pA4
+09  pB1
+0A  pB2
+0B  pB3
+0C  pB4
+0D  pOP

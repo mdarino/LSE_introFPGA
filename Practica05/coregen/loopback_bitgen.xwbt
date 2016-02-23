@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Cursos\IntroFpga\Practica05\coregen\loopback.ncd
+OUTFILE=C:\Cursos\IntroFpga\Practica05\coregen\loopback.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Cursos\IntroFpga\Practica05\coregen
+LICENSE=WebPack
+USER_INFO=174165706_174165707_210592839_445

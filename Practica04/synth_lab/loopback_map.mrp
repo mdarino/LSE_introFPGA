@@ -1,0 +1,240 @@
+Release 14.4 Map P.49d (nt)
+Xilinx Mapping Report File for Design 'loopback'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off
+-c 100 -o loopback_map.ncd loopback.ngd loopback.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue Sep 29 21:30:28 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           142 out of   9,312    1%
+  Number of 4 input LUTs:               279 out of   9,312    2%
+Logic Distribution:
+  Number of occupied Slices:            163 out of   4,656    3%
+    Number of Slices containing only related logic:     163 out of     163 100%
+    Number of Slices containing unrelated logic:          0 out of     163   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         289 out of   9,312    3%
+    Number used as logic:               175
+    Number used as a route-thru:         10
+    Number used for Dual Port RAMs:      16
+      (Two LUTs used per Dual Port RAM)
+    Number used for 32x1 RAMs:           52
+      (Two LUTs used per 32x1 RAM)
+    Number used as Shift registers:      36
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 20 out of     232    8%
+  Number of RAMB16s:                      1 out of      20    5%
+  Number of BUFGMUXs:                     2 out of      24    8%
+  Number of DCMs:                         1 out of       4   25%
+
+Average Fanout of Non-Clock Nets:                3.75
+
+Peak Memory Usage:  214 MB
+Total REAL time to MAP completion:  9 secs 
+Total CPU time to MAP completion:   5 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:Map:113 - input buffer 'rs232_rx_IBUF' driving design level port 'rs232_rx'
+   is being pushed into module 'receive/kcuart' to enable I/O register usage.
+   The buffer has been renamed as 'receive/kcuart/rs232_rx_IBUF'.
+INFO:Map:110 - output buffer 'rs232_tx_OBUF' driving design level port
+   'rs232_tx' is being pushed into module 'transmit/kcuart' to enable I/O
+   register usage. The buffer has been renamed as
+   'transmit/kcuart/rs232_tx_OBUF'.
+INFO:LIT:243 - Logical network Inst_my_dcm/LOCKED_OUT has no load.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp Inst_my_dcm/DCM_SP_INST,
+   consult the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) removed
+  19 block(s) optimized away
+  11 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "my_kcpsm3/int_enable" is sourceless and has been removed.
+The signal "my_kcpsm3/int_enable_value" is sourceless and has been removed.
+ Sourceless block "my_kcpsm3/int_enable_flop" (SFF) removed.
+The signal "my_kcpsm3/int_pulse" is sourceless and has been removed.
+The signal "my_kcpsm3/int_update_enable" is sourceless and has been removed.
+The signal "my_kcpsm3/not_active_interrupt" is sourceless and has been removed.
+The signal "my_kcpsm3/sel_shadow_carry" is sourceless and has been removed.
+The signal "Inst_my_dcm/LOCKED_OUT" is sourceless and has been removed.
+The signal "transmit/buffer_full" is sourceless and has been removed.
+The signal "transmit/buffer_half_full" is sourceless and has been removed.
+The signal "receive/buffer_full" is sourceless and has been removed.
+The signal "receive/buffer_half_full" is sourceless and has been removed.
+Unused block "my_kcpsm3/int_update_lut" (ROM) removed.
+Unused block "my_kcpsm3/int_value_lut" (ROM) removed.
+Unused block "my_kcpsm3/sel_shadow_carry_lut" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		Inst_my_dcm/XST_GND
+GND 		my_kcpsm3/XST_GND
+VCC 		my_kcpsm3/XST_VCC
+FD 		my_kcpsm3/ack_flop
+   optimized to 0
+FDR 		my_kcpsm3/int_capture_flop
+	Property STUCK_AT NOT found
+FDR 		my_kcpsm3/int_flop
+	Property STUCK_AT NOT found
+LUT4 		my_kcpsm3/int_pulse_lut
+   optimized to 0
+FDE 		my_kcpsm3/shadow_carry_flop
+	Property STUCK_AT NOT found
+FDE 		my_kcpsm3/shadow_zero_flop
+   optimized to 0
+INV 		my_kcpsm3/stack_count_inv
+MUXCY 		my_kcpsm3/sel_shadow_muxcy
+GND 		my_program/XST_GND
+VCC 		my_program/XST_VCC
+GND 		receive/kcuart/XST_GND
+VCC 		receive/kcuart/XST_VCC
+GND 		transmit/kcuart/XST_GND
+VCC 		transmit/kcuart/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| leds<0>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<1>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<2>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<3>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<4>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<5>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<6>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| leds<7>                            | IOB              | OUTPUT    | LVTTL                |       | 8        | SLOW |              |          | 0 / 0    |
+| rs232_rx                           | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| rs232_tx                           | IOB              | OUTPUT    | LVTTL                |       | 12       | SLOW |              |          | 0 / 0    |
+| rst                                | IBUF             | INPUT     | LVTTL                |       |          |      |              | PULLDOWN | 0 / 0    |
+| switches<0>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<1>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<2>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<3>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<4>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<5>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<6>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
+| switches<7>                        | IBUF             | INPUT     | LVTTL                |       |          |      |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

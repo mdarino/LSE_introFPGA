@@ -1,0 +1,4 @@
+vhdl work "C:\Cursos\IntroFpga\Practica1Procesos\kcpsm3.vhd"
+vhdl work "C:\Cursos\IntroFpga\Practica1Procesos\INT_TEST.VHD"
+vhdl work "C:\Cursos\IntroFpga\Practica1Procesos\kcpsm3_int_test.vhd"
+vhdl work "C:\Cursos\IntroFpga\Practica1Procesos\test_bench.vhd"

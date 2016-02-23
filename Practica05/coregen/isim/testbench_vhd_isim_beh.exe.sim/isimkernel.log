@@ -1,0 +1,28 @@
+Command line:
+   testbench_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49463
+
+Tue Oct 06 19:29:11 2015
+
+
+ Elaboration Time: 0.608404 sec
+
+ Current Memory Usage: 836.69 Meg
+
+ Total Signals          : 3036
+ Total Nets             : 21615
+ Total Signal Drivers   : 862
+ Total Blocks           : 655
+ Total Primitive Blocks : 461
+ Total Processes        : 771
+ Total Traceable Variables  : 947
+ Total Scalar Nets and Variables : 32229
+
+ Total Simulation Time: 0.873606 sec
+
+ Current Memory Usage: 836.69 Meg
+
+Tue Oct 06 19:31:36 2015
+

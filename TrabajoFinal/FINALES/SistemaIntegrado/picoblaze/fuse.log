@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_isim_beh.exe -prj C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_beh.prj work.picoblaze_test 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/floatPointConst.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/PICOCODE.VHD" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/kcpsm3.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/FloatPointALU.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 118864 KB
+Fuse CPU Usage: 2027 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package floatpointconst
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture lut1_v of entity LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture fdr_v of entity FDR [\FDR('0')\]
+Compiling architecture fds_v of entity FDS [\FDS('1')\]
+Compiling architecture lut4_v of entity LUT4 [\LUT4("0000000010000000")(0,15)\]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture fde_v of entity FDE [\FDE('0')\]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("00000100")(0,7)\]
+Compiling architecture fdre_v of entity FDRE [\FDRE('0')\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("1101")(0,3)\]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture fdrse_v of entity FDRSE [\FDRSE('0')\]
+Compiling architecture ram16x1d_v of entity RAM16X1D [\RAM16X1D("0000000000000000")\]
+Compiling architecture ram64x1s_v of entity RAM64X1S [\RAM64X1S("000000000000000000000...]
+Compiling architecture muxf5_v of entity MUXF5 [muxf5_default]
+Compiling architecture ram32x1s_v of entity RAM32X1S [\RAM32X1S("000000000000000000000...]
+Compiling architecture low_level_definition of entity kcpsm3 [kcpsm3_default]
+Compiling architecture ramb16_s18_v of entity RAMB16_S18 [\RAMB16_S18("0000000000000000000...]
+Compiling architecture low_level_definition of entity picocode [picocode_default]
+Compiling architecture behavioral of entity FloatPointALU [floatpointalu_default]
+Compiling architecture behavioral of entity picoblaze [picoblaze_default]
+Compiling architecture picoblaze_test_arq of entity picoblaze_test
+Time Resolution for simulation is 1ps.
+Waiting for 28 sub-compilation(s) to finish...
+Compiled 120 VHDL Units
+Built simulation executable C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_isim_beh.exe
+Fuse Memory Usage: 154048 KB
+Fuse CPU Usage: 3525 ms

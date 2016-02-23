@@ -1,0 +1,74 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Cursos/IntroFpga/Practica03/time_const/testbench_vhd_isim_beh.exe -prj C:/Cursos/IntroFpga/Practica03/time_const/testbench_vhd_beh.prj work.testbench_vhd 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/kcuart_tx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/kcuart_rx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/bbfifo_16x8.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/uart_tx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/uart_rx.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/kcpsm3.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/my_dcm.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/../Assembler/PROGRAM.VHD" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/loopback.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/Practica03/time_const/../testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 119440 KB
+Fuse CPU Usage: 2121 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture lut1_v of entity LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture fdr_v of entity FDR [\FDR('0')\]
+Compiling architecture fds_v of entity FDS [\FDS('1')\]
+Compiling architecture lut4_v of entity LUT4 [\LUT4("0000000010000000")(0,15)\]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture fde_v of entity FDE [\FDE('0')\]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("00000100")(0,7)\]
+Compiling architecture fdre_v of entity FDRE [\FDRE('0')\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("1101")(0,3)\]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture fdrse_v of entity FDRSE [\FDRSE('0')\]
+Compiling architecture ram16x1d_v of entity RAM16X1D [\RAM16X1D("0000000000000000")\]
+Compiling architecture ram64x1s_v of entity RAM64X1S [\RAM64X1S("000000000000000000000...]
+Compiling architecture muxf5_v of entity MUXF5 [muxf5_default]
+Compiling architecture ram32x1s_v of entity RAM32X1S [\RAM32X1S("000000000000000000000...]
+Compiling architecture low_level_definition of entity kcpsm3 [kcpsm3_default]
+Compiling architecture ramb16_s18_v of entity RAMB16_S18 [\RAMB16_S18("0000000000000000000...]
+Compiling architecture low_level_definition of entity program [program_default]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture behavioral of entity my_dcm [my_dcm_default]
+Compiling architecture muxf6_v of entity MUXF6 [muxf6_default]
+Compiling architecture fdrs_v of entity FDRS [\FDRS('0')\]
+Compiling architecture mult_and_v of entity MULT_AND [mult_and_default]
+Compiling architecture srl16e_v of entity SRL16E [\SRL16E("0000000000000000")(0,15...]
+Compiling architecture low_level_definition of entity kcuart_tx [kcuart_tx_default]
+Compiling architecture low_level_definition of entity bbfifo_16x8 [bbfifo_16x8_default]
+Compiling architecture macro_level_definition of entity uart_tx [uart_tx_default]
+Compiling architecture low_level_definition of entity kcuart_rx [kcuart_rx_default]
+Compiling architecture macro_level_definition of entity uart_rx [uart_rx_default]
+Compiling architecture behavioral of entity loopback [loopback_default]
+Compiling architecture behavior of entity testbench_vhd
+Time Resolution for simulation is 1ps.
+Waiting for 41 sub-compilation(s) to finish...
+Compiled 173 VHDL Units
+Built simulation executable C:/Cursos/IntroFpga/Practica03/time_const/testbench_vhd_isim_beh.exe
+Fuse Memory Usage: 152448 KB
+Fuse CPU Usage: 3962 ms

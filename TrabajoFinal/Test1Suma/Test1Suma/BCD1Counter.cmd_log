@@ -1,0 +1,8 @@
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BCD1Counter.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/BCD1Counter.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o BCD1Counter.spl -module BCD1Counter -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BCD1Counter.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/BCD1Counter.sym 

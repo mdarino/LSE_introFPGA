@@ -1,0 +1,27 @@
+
+#Created by Constraints Editor (xc3s500e-fg320-4) - 2013/09/20
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50%;
+OFFSET = IN 7 ns VALID 20 ns BEFORE "clk" RISING;
+OFFSET = OUT 7.5 ns AFTER "clk";
+
+NET "clk"  LOC = "B8";
+NET "leds<0>"  LOC = "J14" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<1>"  LOC = "J15" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<2>"  LOC = "K15" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<3>"  LOC = "K14" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<4>"  LOC = "E17" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<5>"  LOC = "P15" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<6>"  LOC = "F4" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "leds<7>"  LOC = "R4" | IOSTANDARD = LVTTL  | SLEW = SLOW  | DRIVE = 8 ;
+NET "rs232_rx"  LOC = "U6" | IOSTANDARD = LVTTL ;
+NET "rs232_tx"  LOC = "P9" | IOSTANDARD = LVTTL ;
+NET "rst"  LOC = "B18" | IOSTANDARD = LVTTL  | PULLDOWN ;
+NET "switches<0>"  LOC = "G18" | IOSTANDARD = LVTTL;
+NET "switches<1>"  LOC = "H18" | IOSTANDARD = LVTTL;
+NET "switches<2>"  LOC = "K18" | IOSTANDARD = LVTTL;
+NET "switches<3>"  LOC = "K17" | IOSTANDARD = LVTTL;
+NET "switches<4>"  LOC = "L14" | IOSTANDARD = LVTTL;
+NET "switches<5>"  LOC = "L13" | IOSTANDARD = LVTTL;
+NET "switches<6>"  LOC = "N17" | IOSTANDARD = LVTTL;
+NET "switches<7>"  LOC = "R17" | IOSTANDARD = LVTTL;

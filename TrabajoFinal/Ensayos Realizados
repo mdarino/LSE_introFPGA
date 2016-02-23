@@ -1,0 +1,92 @@
+ENSAYO:
+	signal		A1_t: std_logic_vector (7 downto 0):="00000000";
+	signal		A2_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A3_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A4_t: std_logic_vector (7 downto 0):="00000000";  
+
+	signal		B1_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B2_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B3_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B4_t: std_logic_vector (7 downto 0):="00000000";
+
+RESULTADO: 0
+RESULTADO SOFT: 0
+
+
+ENSAYO: 2-2
+	signal		A1_t: std_logic_vector (7 downto 0):="01000000";
+	signal		A2_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A3_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A4_t: std_logic_vector (7 downto 0):="00000000";  
+
+	signal		B1_t: std_logic_vector (7 downto 0):="11000000";
+	signal		B2_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B3_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B4_t: std_logic_vector (7 downto 0):="00000000";
+
+RESULTADO: 0
+RESULTADO SOFT: 0
+
+
+ENSAYO: 
+	--01000000001100000000000000000000   2.75
+	signal		A1_t: std_logic_vector (7 downto 0):="01000000";  
+	signal		A2_t: std_logic_vector (7 downto 0):="00110000"; 
+	signal		A3_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A4_t: std_logic_vector (7 downto 0):="00000000";  
+	--11000000000000000000000000000000   -2.0
+	signal		B1_t: std_logic_vector (7 downto 0):="11000000";
+	signal		B2_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B3_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B4_t: std_logic_vector (7 downto 0):="00000000";
+
+RESULTADO: 0.75
+RESULTADO SOFT: 0.75
+
+
+ENSAYO:
+	--01000000011111110000000000000000  3.984375
+	signal		A1_t: std_logic_vector (7 downto 0):="01000000";
+	signal		A2_t: std_logic_vector (7 downto 0):="01111111"; 
+	signal		A3_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A4_t: std_logic_vector (7 downto 0):="00000000";  
+	--11000000011100000000000000000000  3.75
+	signal		B1_t: std_logic_vector (7 downto 0):="11000000";
+	signal		B2_t: std_logic_vector (7 downto 0):="01110000";
+	signal		B3_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B4_t: std_logic_vector (7 downto 0):="00000000";
+
+RESULTADO: 0,234375
+RESULTADO SOFT: 0,234375
+
+
+ENSAYO:
+	--01000000011100000000000000000000  3.75
+	signal		A1_t: std_logic_vector (7 downto 0):="01000000";
+	signal		A2_t: std_logic_vector (7 downto 0):="01110000"; 
+	signal		A3_t: std_logic_vector (7 downto 0):="00000000"; 
+	signal		A4_t: std_logic_vector (7 downto 0):="00000000";  
+	--11000000011111110000000000000000  -3.984375
+	signal		B1_t: std_logic_vector (7 downto 0):="11000000";
+	signal		B2_t: std_logic_vector (7 downto 0):="01111111";
+	signal		B3_t: std_logic_vector (7 downto 0):="00000000";
+	signal		B4_t: std_logic_vector (7 downto 0):="00000000";
+
+RESULTADO: -0,234375
+RESULTADO SOFT: -0.234375 
+
+
+01000000011100000000000000000000
+
+001111100110011111010111101001
+001111110010101001001110101100
+001111110110010001000100100110
+001111110110010001000100100110
+
+
+263622615 795488398 262931379
+
+001111101101101000111111010111
+101111011010100011000010001110
+001111101011000000001110110011
+001111101011000000001110110011

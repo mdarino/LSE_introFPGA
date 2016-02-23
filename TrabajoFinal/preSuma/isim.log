@@ -1,0 +1,16 @@
+ISim log file
+Running: C:\Cursos\IntroFpga\TrabajoFinal\preSuma\PreSuma_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Cursos/IntroFpga/TrabajoFinal/preSuma/PreSuma_test_isim_beh.wdb 
+ISim P.49d (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# show value ope1_t -rad
+011011010000000000001000000000000000000000000
+# show value ope2_t -rad
+000000110110100000000000010000000000000000000
+# show value result_t -rad
+11000111110100110011000000001111

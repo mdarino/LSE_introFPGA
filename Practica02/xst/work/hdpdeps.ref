@@ -1,0 +1,66 @@
+V3 63
+FL C:/Cursos/IntroFpga/Practica02/bbfifo_16x8.vhd 2003/12/03.15:53:56 P.49d
+EN work/bbfifo_16x8 1442358601 FL C:/Cursos/IntroFpga/Practica02/bbfifo_16x8.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/bbfifo_16x8/low_level_definition 1442358602 \
+      FL C:/Cursos/IntroFpga/Practica02/bbfifo_16x8.vhd EN work/bbfifo_16x8 1442358601 \
+      CP string CP label CP SRL16E CP FDRE CP LUT4 CP MUXCY CP XORCY CP FDR CP LUT3
+FL C:/Cursos/IntroFpga/Practica02/kcpsm3.vhd 2004/06/14.16:07:40 P.49d
+EN work/kcpsm3 1442358605 FL C:/Cursos/IntroFpga/Practica02/kcpsm3.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcpsm3/low_level_definition 1442358606 \
+      FL C:/Cursos/IntroFpga/Practica02/kcpsm3.vhd EN work/kcpsm3 1442358605 \
+      CP LUT1 CP FDR CP FDS CP LUT4 CP FD CP FDE CP LUT3 CP FDRE CP LUT2 CP MUXCY CP XORCY \
+      CP INV CP string CP label CP FDRSE CP RAM16X1D CP RAM64X1S CP MUXF5 CP RAM32X1S
+FL C:/Cursos/IntroFpga/Practica02/kcuart_rx.vhd 2003/12/03.15:53:38 P.49d
+EN work/kcuart_rx 1442358599 FL C:/Cursos/IntroFpga/Practica02/kcuart_rx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcuart_rx/low_level_definition 1442358600 \
+      FL C:/Cursos/IntroFpga/Practica02/kcuart_rx.vhd EN work/kcuart_rx 1442358599 \
+      CP FD CP string CP label CP SRL16E CP FDE CP LUT4 CP LUT3 CP LUT2
+FL C:/Cursos/IntroFpga/Practica02/kcuart_tx.vhd 2003/12/03.15:53:48 P.49d
+EN work/kcuart_tx 1442358603 FL C:/Cursos/IntroFpga/Practica02/kcuart_tx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcuart_tx/low_level_definition 1442358604 \
+      FL C:/Cursos/IntroFpga/Practica02/kcuart_tx.vhd EN work/kcuart_tx 1442358603 \
+      CP LUT4 CP MUXF5 CP MUXF6 CP FDRS CP string CP label CP FDRE CP LUT2 CP MULT_AND \
+      CP MUXCY CP XORCY CP LUT3 CP FDE CP SRL16E CP FD
+FL C:/Cursos/IntroFpga/Practica02/my_dcm.vhd 2015/09/14.21:14:43 P.49d
+EN work/my_dcm 1442358609 FL C:/Cursos/IntroFpga/Practica02/my_dcm.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/my_dcm/BEHAVIORAL 1442358610 \
+      FL C:/Cursos/IntroFpga/Practica02/my_dcm.vhd EN work/my_dcm 1442358609 \
+      CP BUFG CP IBUFG CP DCM_SP
+FL C:/Cursos/IntroFpga/Practica02/uart_clock.vhd 2015/09/08.20:45:29 P.49d
+EN work/uart_clock 1442358615 FL C:/Cursos/IntroFpga/Practica02/uart_clock.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/uart_clock/Behavioral 1442358616 \
+      FL C:/Cursos/IntroFpga/Practica02/uart_clock.vhd EN work/uart_clock 1442358615 \
+      CP kcpsm3 CP uclock CP my_dcm CP uart_tx CP uart_rx
+FL C:/Cursos/IntroFpga/Practica02/uart_rx.vhd 2003/12/03.15:53:26 P.49d
+EN work/uart_rx 1442358613 FL C:/Cursos/IntroFpga/Practica02/uart_rx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/uart_rx/macro_level_definition 1442358614 \
+      FL C:/Cursos/IntroFpga/Practica02/uart_rx.vhd EN work/uart_rx 1442358613 \
+      CP kcuart_rx CP bbfifo_16x8
+FL C:/Cursos/IntroFpga/Practica02/uart_tx.vhd 2003/12/03.15:53:16 P.49d
+EN work/uart_tx 1442358611 FL C:/Cursos/IntroFpga/Practica02/uart_tx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/uart_tx/macro_level_definition 1442358612 \
+      FL C:/Cursos/IntroFpga/Practica02/uart_tx.vhd EN work/uart_tx 1442358611 \
+      CP kcuart_tx CP bbfifo_16x8
+FL C:/Cursos/IntroFpga/Practica02/UCLOCK.VHD 2006/05/22.10:06:32 P.49d
+EN work/uclock 1442358607 FL C:/Cursos/IntroFpga/Practica02/UCLOCK.VHD \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/uclock/low_level_definition 1442358608 \
+      FL C:/Cursos/IntroFpga/Practica02/UCLOCK.VHD EN work/uclock 1442358607 \
+      CP RAMB16_S18

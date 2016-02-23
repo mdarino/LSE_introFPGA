@@ -1,0 +1,7 @@
+AR int_test low_level_definition C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD sub00/vhpl03 1441663978
+EN int_test NULL C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD sub00/vhpl02 1441663977
+AR kcpsm3 low_level_definition C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd sub00/vhpl01 1441663976
+EN testbench NULL C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd sub00/vhpl06 1441663446
+AR kcpsm3_int_test behavioral C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd sub00/vhpl05 1441663980
+EN kcpsm3_int_test NULL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd sub00/vhpl04 1441663979
+EN kcpsm3 NULL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd sub00/vhpl00 1441663975

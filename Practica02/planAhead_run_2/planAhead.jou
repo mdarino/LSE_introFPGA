@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Tue Sep 08 21:07:14 2015
+# Process ID: 3556
+# Log file: C:/Cursos/IntroFpga/Practica02/planAhead_run_2/planAhead.log
+# Journal file: C:/Cursos/IntroFpga/Practica02/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Cursos/IntroFpga/Practica02/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVTTL [get_ports [list alarm]]
+set_property iostandard LVTTL [get_ports [list clk]]
+set_property iostandard LVTTL [get_ports [list lock]]
+set_property iostandard LVTTL [get_ports [list rx]]
+set_property iostandard PCI33_3 [get_ports [list rx]]
+save_constraints

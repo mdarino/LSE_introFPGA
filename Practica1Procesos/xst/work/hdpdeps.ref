@@ -1,0 +1,30 @@
+V3 36
+FL C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD 2015/09/07.18:54:38 P.49d
+EN work/int_test 1441663977 FL C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB unisim PH unisim/VCOMPONENTS 1354696165
+AR work/int_test/low_level_definition 1441663978 \
+      FL C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD EN work/int_test 1441663977 \
+      CP RAMB16_S18
+FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd 2004/06/14.05:07:40 P.49d
+EN work/kcpsm3 1441663975 FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB unisim PH unisim/VCOMPONENTS 1354696165
+AR work/kcpsm3/low_level_definition 1441663976 \
+      FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd EN work/kcpsm3 1441663975 \
+      CP LUT1 CP FDR CP FDS CP LUT4 CP FD CP FDE CP LUT3 CP FDRE CP LUT2 CP MUXCY CP XORCY \
+      CP INV CP string CP label CP FDRSE CP RAM16X1D CP RAM64X1S CP MUXF5 CP RAM32X1S
+FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd 2003/06/10.01:23:26 P.49d
+EN work/kcpsm3_int_test 1441663979 \
+      FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/kcpsm3_int_test/Behavioral 1441663980 \
+      FL C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd \
+      EN work/kcpsm3_int_test 1441663979 CP kcpsm3 CP int_test
+FL C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd 2007/01/31.01:37:12 P.49d
+EN work/testbench 0 FL C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/testbench/behavior 0 \
+      FL C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd EN work/testbench 0 \
+      CP kcpsm3_int_test

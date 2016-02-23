@@ -1,0 +1,2 @@
+vhdl isim_temp "floatPointConst.vhd"
+vhdl isim_temp "FloatPointALU.vhd"

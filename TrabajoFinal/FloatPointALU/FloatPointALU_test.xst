@@ -1,0 +1,5 @@
+set -tmpdir "C:/Cursos/IntroFpga/TrabajoFinal/FloatPointALU/xst/projnav.tmp"
+set -xsthdpdir "C:/Cursos/IntroFpga/TrabajoFinal/FloatPointALU/xst"
+elaborate
+-ifn FloatPointALU_test.prj
+-ifmt mixed

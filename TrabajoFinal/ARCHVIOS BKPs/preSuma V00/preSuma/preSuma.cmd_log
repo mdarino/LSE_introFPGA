@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.xst" -ofn "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.syr" 

@@ -1,0 +1,81 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Cursos/IntroFpga/TrabajoFinal/preSuma/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> Parameter xsthdpdir set to C:/Cursos/IntroFpga/TrabajoFinal/preSuma/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/floatPointConst.vhd" in Library work.
+Architecture floatpointconst of Entity floatpointconst is up to date.
+Compiling vhdl file "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" in Library work.
+Entity <presuma> compiled.
+Entity <presuma> (Architecture <behavioral>) compiled.
+Entity <presuma_test> compiled.
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 111. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 112. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 113. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 114. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 116. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 117. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 118. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 119. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 121. parse error, unexpected TOKOUT, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 122. parse error, unexpected TOKOUT, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 123. parse error, unexpected TOKOUT, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 124. parse error, unexpected TOKOUT, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 125. parse error, unexpected TOKOUT, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:164 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 126. parse error, unexpected IN, expecting IDENTIFIER or STRING_LITERAL
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 130. Undefined symbol 'clk_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 130. clk_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 134. Undefined symbol 'A1_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 134. A1_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 135. Undefined symbol 'A2_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 135. A2_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 136. Undefined symbol 'A3_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 136. A3_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 137. Undefined symbol 'A4_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 137. A4_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 139. Undefined symbol 'B1_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 139. B1_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 140. Undefined symbol 'B2_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 140. B2_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 141. Undefined symbol 'B3_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 141. B3_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 142. Undefined symbol 'B4_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 142. B4_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 144. Undefined symbol 'ope1_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 144. ope1_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 145. Undefined symbol 'ope2_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 145. ope2_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 146. Undefined symbol 'finalExpon1_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 146. finalExpon1_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 147. Undefined symbol 'finalExpon2_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 147. finalExpon2_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 148. Undefined symbol 'finalSign_t'.
+ERROR:HDLParsers:1209 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 148. finalSign_t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" Line 133. IN mode Formal A1 of PreSuma with no default value must be associated with an actual value.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> 
+
+Total memory usage is 167752 kilobytes
+
+Number of errors   :   43 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

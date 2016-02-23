@@ -1,0 +1,1 @@
+vhdtdtfi -prj picoblaze -o C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picocode.vhi -module picocode -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PICOCODE.VHD 

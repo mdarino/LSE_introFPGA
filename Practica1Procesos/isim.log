@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Cursos\IntroFpga\Practica1Procesos\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Cursos/IntroFpga/Practica1Procesos/testbench_isim_beh.wdb 
+ISim P.49d (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 25000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# restart
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 11966390100 ps : File "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd" Line 858
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 10841990100 ps : File "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd" Line 1667

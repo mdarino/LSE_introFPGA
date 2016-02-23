@@ -1,0 +1,47 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Cursos/IntroFpga/Practica1Procesos/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.52 secs
+ 
+--> Parameter xsthdpdir set to C:/Cursos/IntroFpga/Practica1Procesos/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.52 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3.vhd" in Library work.
+Architecture low_level_definition of Entity kcpsm3 is up to date.
+Compiling vhdl file "C:/Cursos/IntroFpga/Practica1Procesos/INT_TEST.VHD" in Library work.
+Architecture low_level_definition of Entity int_test is up to date.
+Compiling vhdl file "C:/Cursos/IntroFpga/Practica1Procesos/kcpsm3_int_test.vhd" in Library work.
+Architecture behavioral of Entity kcpsm3_int_test is up to date.
+Compiling vhdl file "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" in Library work.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 50. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 52. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 83. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 85. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 87. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 89. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 91. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Cursos/IntroFpga/Practica1Procesos/test_bench.vhd" Line 93. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.98 secs
+ 
+--> 
+
+Total memory usage is 171656 kilobytes
+
+Number of errors   :    8 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

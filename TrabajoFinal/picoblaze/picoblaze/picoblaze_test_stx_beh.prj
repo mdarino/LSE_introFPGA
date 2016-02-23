@@ -1,0 +1,5 @@
+vhdl isim_temp "floatPointConst.vhd"
+vhdl isim_temp "PICOCODE.VHD"
+vhdl isim_temp "kcpsm3.vhd"
+vhdl isim_temp "FloatPointALU.vhd"
+vhdl isim_temp "picoblaze.vhd"

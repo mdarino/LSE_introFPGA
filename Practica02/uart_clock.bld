@@ -1,0 +1,36 @@
+Release 14.4 ngdbuild P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc uart_clock.ucf -p xc3s500e-fg320-4 uart_clock.ngc
+uart_clock.ngd
+
+Reading NGO file "C:/Cursos/IntroFpga/Practica02/uart_clock.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "uart_clock.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 116332 kilobytes
+
+Writing NGD file "uart_clock.ngd" ...
+Total REAL time to NGDBUILD completion:  10 sec
+Total CPU time to NGDBUILD completion:   10 sec
+
+Writing NGDBUILD log file "uart_clock.bld"...

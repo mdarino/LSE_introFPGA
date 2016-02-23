@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.xst" -ofn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loopback.ucf -p xc3s500e-fg320-4 loopback.ngc loopback.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o loopback_map.ncd loopback.ngd loopback.pcf 
+par -w -intstyle ise -ol high -t 1 loopback_map.ncd loopback.ncd loopback.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loopback.ucf -p xc3s500e-fg320-4 loopback.ngc loopback.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o loopback_map.ncd loopback.ngd loopback.pcf 
+par -w -intstyle ise -ol high -t 1 loopback_map.ncd loopback.ncd loopback.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml loopback.twx loopback.ncd -o loopback.twr loopback.pcf -ucf loopback.ucf 
+bitgen -intstyle ise -f loopback.ut loopback.ncd 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml loopback_preroute.twx loopback_map.ncd -o loopback_preroute.twr loopback.pcf -ucf loopback.ucf 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.xst" -ofn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.syr" 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.xst" -ofn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.syr" 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.xst" -ofn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.syr" 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.xst" -ofn "C:/Cursos/IntroFpga/Practica03/time_const/loopback.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loopback.ucf -p xc3s500e-fg320-4 loopback.ngc loopback.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o loopback_map.ncd loopback.ngd loopback.pcf 
+par -w -intstyle ise -ol high -t 1 loopback_map.ncd loopback.ncd loopback.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml loopback.twx loopback.ncd -o loopback.twr loopback.pcf -ucf loopback.ucf 
+bitgen -intstyle ise -f loopback.ut loopback.ncd 

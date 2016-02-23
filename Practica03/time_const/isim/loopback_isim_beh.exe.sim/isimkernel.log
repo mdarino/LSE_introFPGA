@@ -1,0 +1,28 @@
+Command line:
+   loopback_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49325
+
+Tue Sep 29 19:17:30 2015
+
+
+ Elaboration Time: 0.421203 sec
+
+ Current Memory Usage: 811.332 Meg
+
+ Total Signals          : 2825
+ Total Nets             : 2599
+ Total Signal Drivers   : 794
+ Total Blocks           : 643
+ Total Primitive Blocks : 456
+ Total Processes        : 728
+ Total Traceable Variables  : 808
+ Total Scalar Nets and Variables : 30684
+
+ Total Simulation Time: 0.499203 sec
+
+ Current Memory Usage: 654.045 Meg
+
+Tue Sep 29 20:21:26 2015
+

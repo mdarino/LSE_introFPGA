@@ -1,0 +1,16 @@
+# Output products list for <program>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+program.asy
+program.gise
+program.mif
+program.ngc
+program.v
+program.veo
+program.vhd
+program.vho
+program.xco
+program.xise
+program_flist.txt
+program_readme.txt
+program_xmdf.tcl

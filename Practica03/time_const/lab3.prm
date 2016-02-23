@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Cursos\IntroFpga\Practica03\time_const//lab3 -x xcf04s -u 00000000 C:/Cursos/IntroFpga/Practica03/time_const/loopback.bit 
+
+PROM C:\Cursos\IntroFpga\Practica03\time_const\lab3.prm map: Tue Sep 29 20:17:46 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 059f71c7
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0002:64bb     Sep 29 20:02:35 2015 C:/Cursos/IntroFpga/Practica03/time_const/loopback.bit

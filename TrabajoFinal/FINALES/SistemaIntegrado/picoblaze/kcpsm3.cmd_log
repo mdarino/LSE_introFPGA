@@ -1,0 +1,1 @@
+vhdtdtfi -prj picoblaze -o C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/kcpsm3.vhi -module kcpsm3 -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work kcpsm3.vhd 

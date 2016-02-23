@@ -1,0 +1,44 @@
+Release 14.4 - xst P.49d (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+WARNING:Xst:2682 - Unable to write in file ".lso"
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/kcpsm3.vhd" in Library work.
+Entity <kcpsm3> compiled.
+Entity <kcpsm3> (Architecture <low_level_definition>) compiled.
+Compiling vhdl file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/PICOCODE.VHD" in Library work.
+Entity <picocode> compiled.
+Entity <picocode> (Architecture <low_level_definition>) compiled.
+Compiling vhdl file "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze.vhd" in Library work.
+Entity <picoblaze> compiled.
+Entity <picoblaze> (Architecture <Behavioral>) compiled.
+Entity <picoblaze_test> compiled.
+Entity <picoblaze_test> (Architecture <picoblaze_test_arq>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.06 secs
+ 
+--> 
+
+Total memory usage is 174088 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

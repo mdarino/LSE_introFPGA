@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Cursos\IntroFpga\Practica02\impact.xsl
+OUTFILE=C:\Cursos\IntroFpga\Practica02\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Cursos\IntroFpga\Practica02
+LICENSE=iMPACT
+USER_INFO=iMPACT

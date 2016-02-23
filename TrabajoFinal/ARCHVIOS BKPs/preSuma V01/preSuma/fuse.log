@@ -1,0 +1,23 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/PreSuma_test_isim_beh.exe" -prj "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/PreSuma_test_beh.prj" "work.PreSuma_test" 
+ISim P.49d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/floatPointConst.vhd" into library work
+Parsing VHDL file "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/preSuma.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106000 KB
+Fuse CPU Usage: 826 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package floatpointconst
+Compiling architecture behavioral of entity preSuma [presuma_default]
+Compiling architecture presuma_test_arq of entity presuma_test
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Cursos/IntroFpga/TrabajoFinal/preSuma/PreSuma_test_isim_beh.exe
+Fuse Memory Usage: 122688 KB
+Fuse CPU Usage: 1138 ms

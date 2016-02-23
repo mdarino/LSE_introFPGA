@@ -1,0 +1,21 @@
+
+
+NET "clk" LOC = B8;
+NET "lock" LOC = J14;
+NET "alarm" LOC = J15;
+NET "tx" LOC = P9;
+NET "rx" LOC = U6;
+
+
+NET "alarm" IOSTANDARD = LVTTL;
+NET "clk" IOSTANDARD = LVTTL;
+NET "lock" IOSTANDARD = LVTTL;
+NET "rx" IOSTANDARD = LVTTL;
+NET "tx" IOSTANDARD = LVTTL;
+
+
+NET "alarm" DRIVE = 8;
+NET "tx" DRIVE = 8;
+NET "rx" DRIVE = 12;
+NET "clk" DRIVE = 12;
+NET "lock" DRIVE = 8;

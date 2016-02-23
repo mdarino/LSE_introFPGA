@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o JK_Flipflop.spl -module JK_Flipflop -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e JK_Flipflop.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/JK_Flipflop.sym 

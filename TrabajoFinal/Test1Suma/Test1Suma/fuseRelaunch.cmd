@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma_test_isim_beh.exe" -prj "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma_test_beh.prj" "work.Test1Suma_test" 

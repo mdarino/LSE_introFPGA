@@ -1,0 +1,5 @@
+work	"FloatPointALU.vhd"
+work	"PICOCODE.VHD"
+work	"floatPointConst.vhd"
+work	"kcpsm3.vhd"
+work	"picoblaze.vhd"

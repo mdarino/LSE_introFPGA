@@ -1,0 +1,100 @@
+             ; -- BRIEF: Picoblaze code to send two umber to the float point unit,
+             ; wait the interrupt and read the result.
+             ;;----------------------------------
+             ;; ENTER THE NUMBERS IN HEX
+             ;;----------------------------------
+             ; Number one
+             CONSTANT NA1, 42     ;  35 decimal  = 42 0C 00 00
+             CONSTANT NA2, 0C     ;
+             CONSTANT NA3, 00     ;
+             CONSTANT NA4, 00     ;
+             ; Number two
+             CONSTANT NB1, 42     ;   75
+             CONSTANT NB2, 96     ;
+             CONSTANT NB3, 00     ;
+             CONSTANT NB4, 00     ;
+             ; Operation  00 - add  01 --subtract  10 --Multiplication
+             CONSTANT OPE, 00     ;
+             ;;----------------------------------
+             ;; DO NOT NEED CHANGE NOTHING BELOW
+             ;;----------------------------------
+             ; START BIT  -- define ON as 1
+             CONSTANT STA_ON, 01  ;
+             CONSTANT STA_OFF, 00 ;
+             ;--- NUMBER OF THE REGISTERS  ---
+             ;Result
+             CONSTANT pR1, 01     ;
+             CONSTANT pR2, 02     ;
+             CONSTANT pR3, 03     ;
+             CONSTANT pR4, 04     ;
+             ;first number
+             CONSTANT pA1, 05     ;
+             CONSTANT pA2, 06     ;
+             CONSTANT pA3, 07     ;
+             CONSTANT pA4, 08     ;
+             ;second number
+             CONSTANT pB1, 09     ;
+             CONSTANT pB2, 0A     ;
+             CONSTANT pB3, 0B     ;
+             CONSTANT pB4, 0C     ;
+             ;Operation subtract or add
+             CONSTANT pOP, 0D     ;
+             CONSTANT sta, 0E     ;
+             ;Result - return the result to simulate
+             CONSTANT pRp1, 0F    ;
+             CONSTANT pRp2, 10    ;
+             CONSTANT pRp3, 11    ;
+             CONSTANT pRp4, 12    ;
+             ;--- PROGRAM  ---
+     output: 
+             ;output the number to the float point unit
+             ;First number
+             LOAD s0, NA1
+             OUTPUT s0, pA1
+             LOAD s0, NA2
+             OUTPUT s0, pA2
+             LOAD s0, NA3
+             OUTPUT s0, pA3
+             LOAD s0, NA4
+             OUTPUT s0, pA4
+             ;Second number
+             LOAD s0, NB1
+             OUTPUT s0, pB1
+             LOAD s0, NB2
+             OUTPUT s0, pB2
+             LOAD s0, NB3
+             OUTPUT s0, pB3
+             LOAD s0, NB4
+             OUTPUT s0, pB4
+             ;operation
+             LOAD s0, OPE
+             OUTPUT s0, pOP
+             ;Output the start value
+             LOAD s0, STA_ON
+             OUTPUT s0, sta
+             ;Enable the interrupt
+             ENABLE INTERRUPT
+             ;wait the interrupt in a infinete loop
+       loop: 
+             JUMP loop
+             ;--- INTERRUPT RUTINE  ---
+int_routine: 
+             ;stop -  we have had the result
+             LOAD s0, STA_OFF
+             OUTPUT s0, sta
+             ;read the result
+             INPUT s1, pR1
+             INPUT s2, pR2
+             INPUT s3, pR3
+             INPUT s4, pR4
+             ;output the result, only to show in the simulation
+             OUTPUT s1, pRp1
+             OUTPUT s2, pRp2
+             OUTPUT s3, pRp3
+             OUTPUT s4, pRp4
+             ;return to the interupt
+             RETURNI ENABLE
+             ;
+             ;--- INTERRUPT VECTOR  ---
+             ADDRESS 3FF          ;set interrupt vector
+             JUMP int_routine

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work floatPointConst.vhd -lib work PICOCODE.VHD -lib work kcpsm3.vhd -lib work FloatPointALU.vhd -lib work picoblaze.vhd -prj picoblaze -o picoblaze_test.spl -module picoblaze_test -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e picoblaze_test.spl C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test.sym 
+vhdtdtfi -lib work floatPointConst.vhd -lib work PICOCODE.VHD -lib work kcpsm3.vhd -lib work FloatPointALU.vhd -lib work picoblaze.vhd -prj picoblaze -o picoblaze_test.spl -module picoblaze_test -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e picoblaze_test.spl C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test.sym 

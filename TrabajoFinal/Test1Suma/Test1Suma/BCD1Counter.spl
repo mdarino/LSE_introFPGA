@@ -1,0 +1,8 @@
+[Inputs]
+ena
+clk
+rst
+[Outputs]
+co
+=BCD[3:0]=
+[BiDir]

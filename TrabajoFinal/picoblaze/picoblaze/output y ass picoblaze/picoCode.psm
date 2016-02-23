@@ -1,0 +1,11 @@
+;Example program to test and input and output
+
+
+CONSTANT switches, 01 ; switches portID 01 in hex
+CONSTANT leds, 03 ; leds portID 03 in hex
+
+
+test:
+      INPUT s0, switches
+      OUTPUT s0, leds
+      JUMP test

@@ -1,0 +1,83 @@
+; -- BRIEF: Example program to send the number to the float point ALU
+
+
+
+;;----------------------------------
+;; ENTER THE NUMBERS IN HEX
+;;----------------------------------
+
+; Number one
+
+CONSTANT NA1, 01 ; 
+CONSTANT NA2, 02 ; 
+CONSTANT NA3, 03 ; 
+CONSTANT NA4, 04 ;
+
+; Number two
+
+CONSTANT NB1, 01 ; 
+CONSTANT NB2, 02 ; 
+CONSTANT NB3, 03 ; 
+CONSTANT NB4, 04 ;
+
+; Operation  00 - add  01 --subtract
+
+CONSTANT OPE, 00 ;
+
+
+
+;;----------------------------------
+;; DO NOT NEED CHANGE NOTHING BELOW
+;;----------------------------------
+
+
+;--- NUMBER OF THE REGISTERS  ---
+
+;Result
+CONSTANT pR1, 01 ; 
+CONSTANT pR2, 02 ; 
+CONSTANT pR3, 03 ; 
+CONSTANT pR4, 04 ;
+;first number
+CONSTANT pA1, 05 ; 
+CONSTANT pA2, 06 ; 
+CONSTANT pA3, 07 ; 
+CONSTANT pA4, 08 ; 
+;second number
+CONSTANT pB1, 09 ; 
+CONSTANT pB2, 0A ; 
+CONSTANT pB3, 0B ; 
+CONSTANT pB4, 0C ; 
+;Operation subtract or add
+CONSTANT pOP, 0D ; 
+
+
+;--- PROGRAM  ---
+
+output:
+	  ;output the number to the float point unit
+
+	  ;First number
+	  LOAD s0, NA1
+	  OUTPUT s0, pA1
+	  LOAD s0, NA2
+	  OUTPUT s0, pA2
+	  LOAD s0, NA3
+	  OUTPUT s0, pA3
+	  LOAD s0, NA4
+	  OUTPUT s0, pA4
+	  
+	  ;Second number
+	  LOAD s0, NB1
+	  OUTPUT s0, pB1
+	  LOAD s0, NB2
+	  OUTPUT s0, pB2
+	  LOAD s0, NB3
+	  OUTPUT s0, pB3
+	  LOAD s0, NB4
+	  OUTPUT s0, pB4
+	  ;operation
+	  LOAD s0, OPE
+	  OUTPUT s0, pOP
+
+      JUMP output

@@ -1,0 +1,4 @@
+vhdl isim_temp "kcpsm3.vhd"
+vhdl isim_temp "INT_TEST.VHD"
+vhdl isim_temp "kcpsm3_int_test.vhd"
+vhdl isim_temp "test_bench.vhd"

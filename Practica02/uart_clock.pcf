@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue Sep 15 20:32:48 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rx" LOCATE = SITE "U6" LEVEL 1;
+COMP "tx" LOCATE = SITE "P9" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "alarm" LOCATE = SITE "J15" LEVEL 1;
+COMP "lock" LOCATE = SITE "J14" LEVEL 1;
+SCHEMATIC END;
+

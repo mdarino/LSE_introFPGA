@@ -1,0 +1,15 @@
+# uart_clock.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Tue Sep 08 21:16:27 2015
+#The following constraints were newly added
+NET "alarm" LOC = J15;
+NET "clk" LOC = B8;
+NET "lock" LOC = J14;
+NET "rx" LOC = U6;
+NET "tx" LOC = P9;

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/xst/projnav.tmp"
+set -xsthdpdir "C:/Cursos/IntroFpga/TrabajoFinal/preSuma/xst"
+elaborate
+-ifn floatPointConst.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Cursos/IntroFpga/Practica1Procesos/testbench_isim_beh.exe" -prj "C:/Cursos/IntroFpga/Practica1Procesos/testbench_beh.prj" "work.testbench" 

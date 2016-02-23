@@ -1,0 +1,65 @@
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -lib work Test1Suma.vhd -prj Test1Suma -o Test1Suma.spl -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Test1Suma.spl C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.sym 
+vhdtdtfi -prj Test1Suma -o C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.vhi -module Test1Suma -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Test1Suma.vhd 
+xst -intstyle ise -ifn "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.xst" -ofn "C:/Cursos/IntroFpga/TrabajoFinal/Test1Suma/Test1Suma/Test1Suma.syr" 
+netgen -intstyle ise -ar Structure -tm Test1Suma -w -dir netgen/synthesis -ofmt vhdl -sim Test1Suma.ngc Test1Suma_synthesis.vhd 
+netgen -intstyle ise -ar Structure -tm Test1Suma -w -dir netgen/synthesis -ofmt vhdl -sim Test1Suma.ngc Test1Suma_synthesis.vhd 

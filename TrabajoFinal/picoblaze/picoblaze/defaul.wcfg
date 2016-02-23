@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/picoblaze_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="floatpointconst" />
+            <top_module name="numeric_std" />
+            <top_module name="picoblaze_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/picoblaze_test/clk_t" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_t</obj_property>
+      <obj_property name="ObjectShortName">clk_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/a1_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a1_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a1_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/a2_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a2_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a2_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/a3_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a3_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a3_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/a4_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a4_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a4_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/b1_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b1_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b1_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/b2_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b2_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b2_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/b3_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b3_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b3_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/b4_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b4_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b4_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/r1_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r1_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/r2_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r2_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/r3_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r3_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r3_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/r4_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r4_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r4_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/rp1_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rp1_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rp1_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/rp2_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rp2_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rp2_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/rp3_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rp3_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rp3_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/rp4_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rp4_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rp4_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/ope_t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ope_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ope_t[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/DUT/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/DUT/interrupt_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt_ack</obj_property>
+      <obj_property name="ObjectShortName">interrupt_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/DUT/write_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/picoblaze_test/DUT/read_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+</wave_config>

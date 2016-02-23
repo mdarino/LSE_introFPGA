@@ -1,0 +1,5 @@
+set -tmpdir "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/xst/projnav.tmp"
+set -xsthdpdir "C:/Cursos/IntroFpga/TrabajoFinal/picoblaze/picoblaze/xst"
+elaborate
+-ifn picoblaze_test.prj
+-ifmt mixed

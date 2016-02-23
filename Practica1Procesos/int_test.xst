@@ -1,0 +1,5 @@
+set -tmpdir "C:/Cursos/IntroFpga/Practica1Procesos/xst/projnav.tmp"
+set -xsthdpdir "C:/Cursos/IntroFpga/Practica1Procesos/xst"
+elaborate
+-ifn int_test.prj
+-ifmt mixed

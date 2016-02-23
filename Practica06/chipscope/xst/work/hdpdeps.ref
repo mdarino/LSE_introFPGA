@@ -1,0 +1,73 @@
+V3 62
+FL C:/Cursos/IntroFpga/Practica06/chipscope/bbfifo_16x8.vhd 2003/12/03.14:53:56 P.49d
+EN work/bbfifo_16x8 1444169146 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/bbfifo_16x8.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/bbfifo_16x8/low_level_definition 1444169147 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/bbfifo_16x8.vhd \
+      EN work/bbfifo_16x8 1444169146 CP string CP label CP SRL16E CP FDRE CP LUT4 \
+      CP MUXCY CP XORCY CP FDR CP LUT3
+FL C:/Cursos/IntroFpga/Practica06/chipscope/ipcore_dir/program.vhd 2010/07/02.11:20:00 P.49d
+EN work/program 1444169152 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/ipcore_dir/program.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/program/program_a 1444169153 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/ipcore_dir/program.vhd \
+      EN work/program 1444169152
+FL C:/Cursos/IntroFpga/Practica06/chipscope/kcpsm3.vhd 2004/06/14.15:07:40 P.49d
+EN work/kcpsm3 1444169150 FL C:/Cursos/IntroFpga/Practica06/chipscope/kcpsm3.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcpsm3/low_level_definition 1444169151 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/kcpsm3.vhd EN work/kcpsm3 1444169150 \
+      CP LUT1 CP FDR CP FDS CP LUT4 CP FD CP FDE CP LUT3 CP FDRE CP LUT2 CP MUXCY CP XORCY \
+      CP INV CP string CP label CP FDRSE CP RAM16X1D CP RAM64X1S CP MUXF5 CP RAM32X1S
+FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_rx.vhd 2003/12/03.14:53:38 P.49d
+EN work/kcuart_rx 1444169144 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_rx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcuart_rx/low_level_definition 1444169145 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_rx.vhd EN work/kcuart_rx 1444169144 \
+      CP FD CP string CP label CP SRL16E CP FDE CP LUT4 CP LUT3 CP LUT2
+FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_tx.vhd 2003/12/02.23:53:48 P.49d
+EN work/kcuart_tx 1444169148 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_tx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/kcuart_tx/low_level_definition 1444169149 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/kcuart_tx.vhd EN work/kcuart_tx 1444169148 \
+      CP LUT4 CP MUXF5 CP MUXF6 CP FDRS CP string CP label CP FDRE CP LUT2 CP MULT_AND \
+      CP MUXCY CP XORCY CP LUT3 CP FDE CP SRL16E CP FD
+FL C:/Cursos/IntroFpga/Practica06/chipscope/loopback.vhd 2015/10/06.13:27:38 P.49d
+EN work/loopback 1444169160 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/loopback.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/loopback/Behavioral 1444169161 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/loopback.vhd EN work/loopback 1444169160 \
+      CP kcpsm3 CP program CP my_dcm CP uart_tx CP uart_rx
+FL C:/Cursos/IntroFpga/Practica06/chipscope/my_dcm.vhd 2015/10/06.13:09:15 P.49d
+EN work/my_dcm 1444169154 FL C:/Cursos/IntroFpga/Practica06/chipscope/my_dcm.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/my_dcm/BEHAVIORAL 1444169155 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/my_dcm.vhd EN work/my_dcm 1444169154 \
+      CP BUFG CP IBUFG CP DCM_SP
+FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_rx.vhd 2003/12/03.14:53:26 P.49d
+EN work/uart_rx 1444169158 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_rx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/uart_rx/macro_level_definition 1444169159 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_rx.vhd EN work/uart_rx 1444169158 \
+      CP kcuart_rx CP bbfifo_16x8
+FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_tx.vhd 2003/12/03.14:53:16 P.49d
+EN work/uart_tx 1444169156 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_tx.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/uart_tx/macro_level_definition 1444169157 \
+      FL C:/Cursos/IntroFpga/Practica06/chipscope/uart_tx.vhd EN work/uart_tx 1444169156 \
+      CP kcuart_tx CP bbfifo_16x8

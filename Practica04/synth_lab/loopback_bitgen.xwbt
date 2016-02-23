@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Cursos\IntroFpga\Practica04\synth_lab\loopback.ncd
+OUTFILE=C:\Cursos\IntroFpga\Practica04\synth_lab\loopback.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Cursos\IntroFpga\Practica04\synth_lab
+LICENSE=ISE
+USER_INFO=174165706_174165707_210592839_445
